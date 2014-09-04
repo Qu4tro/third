@@ -13,10 +13,14 @@ It gives you a web interface and nothing else.
 Project Guidelines:
 
 Daemon/Client arquitecture
+
+Agent Guidelines:
+
 Each agent **must** be completed sandboxed in a Docked env.
-Each agent must present its actions and reactions according to [guidelines]()
-Testing, Documentation and Logging is of paramount importance and must also follow guidelines
-Logging using syslog
+Each agent must present its actions and reactions according to some guidelines(I'm thinking a small config file is enough)
+Testing, Documentation and Logging is of paramount importance!
+Logging using syslog-ng
+Documentation using [lit](https://github.com/cdosborn/lit)
 OAuth whenever possible
 
 
