@@ -21,6 +21,7 @@ Each agent must present its actions and reactions according to some guidelines(I
 Testing, Documentation and Logging is of paramount importance!
 Logging using syslog-ng
 Documentation using [lit](https://github.com/cdosborn/lit)
+Testing using [assert.sh](https://github.com/lehmannro/assert.sh)
 OAuth whenever possible
 
 
