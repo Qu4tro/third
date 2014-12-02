@@ -17,18 +17,26 @@ Daemon/Client arquitecture
 Agent Guidelines:
 
 Each agent **must** be completed sandboxed in a Docked env.
+
 Each agent must present its actions and reactions according to some guidelines(I'm thinking a small config file is enough)
+
 Testing, Documentation and Logging is of paramount importance!
+
 Logging using syslog-ng
+
 Documentation using [lit](https://github.com/cdosborn/lit)
+
 Testing using [assert.sh](https://github.com/lehmannro/assert.sh)
+
 OAuth whenever possible
 
 
 Initial goals:
 
 Simple cli client
+
 Agents:
+
     Email
     Date and time
     RSS
@@ -41,7 +49,11 @@ Agents:
 Later goals:
 
 Web, Desktop, Curses clients
+
 Replicate most ifttt channels
+
 Each condition can have more than one action and more than one reaction
+
 Condition-Sharing website
+
 Pipe? (Pipe agent)
